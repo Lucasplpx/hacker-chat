@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "user01": "node index.js --username lucas --room sala01 --hostUri http://localhost:9898",
+    "user02": "node index.js --username fulano --room sala01 --hostUri http://localhost:9898",
+    "user03": "node index.js --username fulano --room sala01 --hostUri http://localhost:9898"
   },
   "keywords": [],
   "author": "",
